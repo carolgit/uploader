@@ -41,7 +41,7 @@ public class TestUpload extends TestCase {
 	@Before
 	protected void setUp() throws Exception {
 		reader = new Reader();
-		controller = new UploadController(reader);
+		controller = new UploadController(reader,result);
 	}
 
 	@Test

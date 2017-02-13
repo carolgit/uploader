@@ -66,11 +66,13 @@ public class Reader {
 			//linha atual
 			Row line = lines.next();
 			//percorrer celulas da linha
-			Iterator<Cell> cells = line.iterator();
-			while(cells.hasNext()){
-				Cell cell = cells.next();
-				System.out.println(cell.getColumnIndex()+" - "+cell.toString());
-			}
+//			Iterator<Cell> cells = line.iterator();
+			line.getCell(0);
+			System.out.println(line.getCell(0).toString());
+//			while(cells.hasNext()){
+//				Cell cell = cells.next();
+//				System.out.println(cell.getColumnIndex()+" - "+cell.toString());
+//			}
 		}
 	}
 }
