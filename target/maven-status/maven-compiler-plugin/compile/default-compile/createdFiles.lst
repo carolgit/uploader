@@ -1,0 +1,3 @@
+exception/FormatNotAllowedException.class
+uploader/UploadController.class
+reader/Reader.class
